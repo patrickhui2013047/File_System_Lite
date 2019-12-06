@@ -48,10 +48,6 @@ fileSystem::fileSystem()
 		_FoldersName[i] = new char[100];
 }
 
-
-//TODO:test the function
-//TODO:DEBUG
-
 // i->Folder index, j->File Index
 
 //OK
