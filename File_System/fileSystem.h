@@ -12,7 +12,6 @@ class fileSystem
 {
 public:
 	fileSystem();
-	~fileSystem();
 
 	/*
 	char* getFolderName( int i)
