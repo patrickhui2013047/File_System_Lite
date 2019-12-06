@@ -1,0 +1,5 @@
+﻿  fileSystem.cpp
+  main.cpp
+  Generating Code...
+main.obj : error LNK2019: unresolved external symbol "public: __thiscall fileSystem::~fileSystem(void)" (??1fileSystem@@QAE@XZ) referenced in function "void __cdecl `dynamic atexit destructor for 'fs''(void)" (??__Ffs@@YAXXZ)
+C:\Users\Ethan\Downloads\File_System\Debug\File_System.exe : fatal error LNK1120: 1 unresolved externals
