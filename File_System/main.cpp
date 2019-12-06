@@ -21,15 +21,15 @@ int main() {
 bool getMenu(){
 	while (true) {
 		cout << "\n==========\n";
-		cout << "n: creat a new file\n"
-			<< "d: delete an existing file\n"
-			<< "r: rename an existing file\n"
-			<< "c: copy an existing file\n"
-			<< "m: move an existing file\n"
-			<< "s: search for an existing file\n"
-			<< "N: creat a new folder\n"
-			<< "S: save the system\n"
-			<< "q: quit the system\n";
+		cout << "n: Create a new file\n"
+			<< "d: Delete an existing file\n"
+			<< "r: Rename an existing file\n"
+			<< "c: Copy an existing file\n"
+			<< "m: Move an existing file\n"
+			<< "s: Search for an existing file\n"
+			<< "N: Create a new folder\n"
+			<< "S: Save the system\n"
+			<< "q: Quit the system\n";
 		char option;
 		char* buffer = new char[100];
 		 int currentFolder, currentFile;
@@ -37,7 +37,7 @@ bool getMenu(){
 		cout << "\n==========\n";
 		switch (option) {
 		case 'n'://OK without solving GIGO
-			cout << "which folder you would like to creat a new file?(Enter the index of the folder)";
+			cout << "which folder you would like to create a new file?(Enter the index of the folder)";
 			cin >> currentFolder;
 			cout << "Enter the the name of the file (20 char allowed):";
 			cin >> buffer;
